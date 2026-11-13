@@ -1,4 +1,4 @@
-"""Tune and evaluate the Member 1 Logistic Regression model.
+"""Tune Logistic Regression model.
 
 Run from the project folder with:
     python lr_tuning.py
