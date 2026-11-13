@@ -1,4 +1,4 @@
-"""Tune Logistic Regression model.
+"""Logistic Regression Tuning.
 
 Run from the project folder with:
     python lr_tuning.py
