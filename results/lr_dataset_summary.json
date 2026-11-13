@@ -1,0 +1,111 @@
+{
+  "source": "UCI API: ucimlrepo.fetch_ucirepo(id=350)",
+  "api_attempted": true,
+  "api_fallback_reason": null,
+  "records": 30000,
+  "predictor_count": 23,
+  "feature_columns": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "target_name": "DEFAULT_NEXT_MONTH",
+  "target_counts": {
+    "0": 23364,
+    "1": 6636
+  },
+  "missing_values": 0,
+  "train_rows": 24000,
+  "test_rows": 6000,
+  "train_target_counts": {
+    "0": 18691,
+    "1": 5309
+  },
+  "test_target_counts": {
+    "0": 4673,
+    "1": 1327
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true
+  },
+  "cleaning": "EDUCATION codes 5 and 6 mapped to 0; SEX, EDUCATION, MARRIAGE cast to category",
+  "education_codes_before_cleaning": {
+    "5": 280,
+    "6": 51
+  },
+  "cross_validation": {
+    "method": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "folds": [
+      {
+        "fold": 1,
+        "train_rows": 19200,
+        "validation_rows": 4800,
+        "validation_target_counts": {
+          "0": 3739,
+          "1": 1061
+        }
+      },
+      {
+        "fold": 2,
+        "train_rows": 19200,
+        "validation_rows": 4800,
+        "validation_target_counts": {
+          "0": 3738,
+          "1": 1062
+        }
+      },
+      {
+        "fold": 3,
+        "train_rows": 19200,
+        "validation_rows": 4800,
+        "validation_target_counts": {
+          "0": 3738,
+          "1": 1062
+        }
+      },
+      {
+        "fold": 4,
+        "train_rows": 19200,
+        "validation_rows": 4800,
+        "validation_target_counts": {
+          "0": 3738,
+          "1": 1062
+        }
+      },
+      {
+        "fold": 5,
+        "train_rows": 19200,
+        "validation_rows": 4800,
+        "validation_target_counts": {
+          "0": 3738,
+          "1": 1062
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "primary_metric": "ROC_AUC",
+  "best_cv_roc_auc": 0.7700527099764635,
+  "best_parameters": {
+    "model__C": 0.01,
+    "model__class_weight": null,
+    "model__l1_ratio": 0.0,
+    "model__solver": "liblinear"
+  },
+  "baseline_parameters": {
+    "C": 1.0,
+    "penalty": "l2",
+    "l1_ratio": 0.0,
+    "solver": "lbfgs",
+    "class_weight": null,
+    "max_iter": 2000,
+    "tol": 0.0001
+  },
+  "candidate_count": 70,
+  "grid_search_runtime_seconds": 710.2055353999604,
+  "max_iter_for_search_candidates": 5000,
+  "tolerance_for_search_candidates": 0.001,
+  "cv": {
+    "method": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "ROC_AUC": 0.7582530501585936,
+    "Accuracy": 0.817,
+    "Precision": 0.662873399715505,
+    "Recall": 0.35116804822908815,
+    "F1": 0.45911330049261084,
+    "confusion_matrix_labels": [
+      "actual_0",
+      "actual_1"
+    ],
+    "confusion_matrix": [
+      [
+        4436,
+        237
+      ],
+      [
+        861,
+        466
+      ]
+    ]
+  },
+  "tuned": {
+    "ROC_AUC": 0.760436221420461,
+    "Accuracy": 0.8136666666666666,
+    "Precision": 0.6590563165905632,
+    "Recall": 0.3262999246420497,
+    "F1": 0.43649193548387094,
+    "confusion_matrix_labels": [
+      "actual_0",
+      "actual_1"
+    ],
+    "confusion_matrix": [
+      [
+        4449,
+        224
+      ],
+      [
+        894,
+        433
+      ]
+    ]
+  }
+}
