@@ -1,0 +1,7 @@
+{
+  "C": 0.017783,
+  "class_weight": null,
+  "l1_ratio": 0.0,
+  "solver": "liblinear",
+  "max_iter": 2000
+}

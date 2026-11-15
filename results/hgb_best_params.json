@@ -1,0 +1,12 @@
+{
+  "class_weight": null,
+  "early_stopping": true,
+  "l2_regularization": 10.0,
+  "learning_rate": 0.1,
+  "max_depth": null,
+  "max_features": 0.5,
+  "max_iter": 800,
+  "max_leaf_nodes": 15,
+  "min_samples_leaf": 20,
+  "n_iter_no_change": 20
+}
