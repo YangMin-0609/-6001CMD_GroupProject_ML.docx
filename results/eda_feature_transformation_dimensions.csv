@@ -1,0 +1,11 @@
+Original feature,Feature type,Input columns,Output columns
+Numerical predictors (14 total),Numerical,14,14
+SEX,Categorical,1,2
+EDUCATION,Categorical,1,5
+MARRIAGE,Categorical,1,4
+PAY_0,Categorical,1,11
+PAY_2,Categorical,1,11
+PAY_3,Categorical,1,11
+PAY_4,Categorical,1,11
+PAY_5,Categorical,1,10
+PAY_6,Categorical,1,10
