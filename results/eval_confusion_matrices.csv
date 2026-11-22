@@ -1,0 +1,5 @@
+Model,TN,FP,FN,TP
+Logistic Regression,4439,234,870,457
+Random Forest,3816,857,520,807
+HistGradientBoosting,4424,249,839,488
+Ensemble (Soft Voting: HistGradientBoosting + Random Forest),4227,446,690,637

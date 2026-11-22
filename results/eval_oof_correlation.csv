@@ -1,0 +1,4 @@
+,Logistic Regression,Random Forest,HistGradientBoosting
+Logistic Regression,1.0,0.8761306348336676,0.9477678001982754
+Random Forest,0.8761306348336676,1.0,0.9470482122570159
+HistGradientBoosting,0.9477678001982754,0.9470482122570159,1.0
