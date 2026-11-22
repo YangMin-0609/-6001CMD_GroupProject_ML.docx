@@ -11,8 +11,11 @@ We submits one shared Jupyter notebook. It combine together data exploration, pr
 
 Member Contribution
 Random Forest and tuning - Goay Wei Jun
+
 Logistic Regression and tuning - Woon Foo Yang
+
 HistGradientBoosting and tuning - Jeremy Tan Jian Pin
+
 Ensemble development and final comparison - Ong Yang Min
 
 ## How the models fit together
